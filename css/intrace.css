@@ -1,0 +1,96 @@
+.cap_probe .float_right .providerhome {
+	visibility: hidden;
+}
+.cap_probe:hover .float_right .providerhome {
+	visibility: visible;
+}
+.page-header {
+	margin-top: 20px;
+}
+#search-container {
+	height: 200px;
+}
+#search-bar {
+	width: 100%;
+}
+* {
+	-webkit-border-radius: 0 !important;
+	   -moz-border-radius: 0 !important;
+	        border-radius: 0 !important;
+}
+.toggle.intrace, .toggle.intrace .toggle-handle {
+	font-family: "Lucida Console", "Monaco", "Monospace", "monospace", "Courier New", "Courier";
+}
+.table-borderless td, .table-borderless th {
+	border-top: none !important;
+	padding: 4px !important;
+}
+.cap_probe {
+	padding-top:    3px;
+	padding-bottom: 3px;
+}
+.row-margin {
+	margin-bottom: 15px;
+}
+pre {
+	overflow-x: auto;
+}
+pre code {
+	white-space: pre;
+}
+.query-header {
+	white-space: nowrap;
+	overflow: hidden;
+}
+.query-header small {
+	font-family: Monospace;
+}
+.groupheader h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	color: #337ab7;
+}
+.groupheader h3:focus, .groupheader h3:hover {
+	color: #23527c;
+	text-decoration: underline;
+}
+.github-fork-ribbon::before {
+	background-color: #265a88;
+}
+.clear_both {
+	clear: both;
+}
+.clear_left {
+	clear: left;
+}
+.clear_right {
+	clear: right;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.residential {
+	border-left: 5px solid #337ab7;
+	padding-left: 10px;
+	background-position: 5px;
+}
+.country-toggle {
+	cursor: pointer;
+}
+.progress {
+	margin-bottom: 0;
+}
+.provider-toggle img {
+	height: 16px;
+	max-width: 16px;
+}
+.asn {
+	font-size: 70%;
+}
+.progress-bar {
+	width: 100%;
+}
